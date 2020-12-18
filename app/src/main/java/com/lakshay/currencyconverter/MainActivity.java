@@ -58,7 +58,9 @@ public class MainActivity extends AppCompatActivity {
     {
         EditText dollarET = (EditText)findViewById(R.id.DollarAmount);
         EditText rupeeET = (EditText)findViewById(R.id.RupeeAmount);
+        TextView mymessage = (TextView)findViewById(R.id.mymessage);
         dollarET.setText("");
         rupeeET.setText("");
+        mymessage.setText("");
     }
 }
